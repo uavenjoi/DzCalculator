@@ -1,0 +1,1 @@
+c:\users\rashid\documents\visual studio 2015\Projects\DzCalculator\DzCalculator\bin\Debug\DzCalculator.exe.config
