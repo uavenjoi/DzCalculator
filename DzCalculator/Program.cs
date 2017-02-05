@@ -53,7 +53,9 @@ namespace DzCalculator
                                 {
                                     case "+":
                                         res = a + b;
-                                        Console.WriteLine(res);
+                                        
+                                        Console.WriteLine(res);//метод который что то вычисляет, по хорошему не должен выводить ничего. 
+                                                                //Нужно чтобы об этом позаботился вызывающий метод
                                         break;
                                     case "-":
                                         res = er;
@@ -67,6 +69,9 @@ namespace DzCalculator
                                         res = er;
                                         Console.WriteLine(er);
                                         break;
+                                        //достаточно было один раз написать вместо - * / 
+                                    default :
+                                        res=er;
                                 }
 
                             }
